@@ -21,7 +21,7 @@ function Header() {
         </li>
         <li className="nav-item">
           <Link className="nav-link nav-item" aria-current="page" to="/buy">
-            購物車
+            購物頁面
           </Link>
         </li>
         <li className="nav-item">
