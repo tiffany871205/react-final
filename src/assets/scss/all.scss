@@ -1,0 +1,29 @@
+// Bootstrap Functions
+@import "bootstrap/scss/functions";
+
+// 自訂變數（覆蓋 Bootstrap 預設值）
+@import "./helpers/variables";
+@import "./helpers/variables-dark";
+
+// Bootstrap 核心
+@import "bootstrap/scss/bootstrap";
+
+//scss
+@import "./base/base";
+
+@import "./helpers/utils";
+@import "./helpers/utils";
+
+@import "./layout/footer";
+@import "./layout/header";
+
+@import "./pages/cart";
+@import "./pages/checkout";
+@import "./pages/index";
+@import "./pages/order-success";
+@import "./pages/product-detail";
+@import "./pages/product-list";
+
+@import "./admin/login";
+@import "./admin/admin-products";
+@import "./admin/admin-orders";
